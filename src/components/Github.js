@@ -40,7 +40,6 @@ class Github extends Component{
         <thead>
           <tr>
             <th>Repository <span role="img" aria-label="package">📦</span></th>
-            <th>URL</th>
             <th>Description <span role="img" aria-label="book">📖</span></th>
             <th>Language <span role="img" aria-label="japan">🈸</span></th>
           </tr>
@@ -49,8 +48,7 @@ class Github extends Component{
           {
             this.state.datos.map(dato => {
             return <tr key={dato.id}>
-              <td>{dato.name}</td>
-              <td><a href={dato.html_url}>{dato.html_url}</a></td>
+              <td><a href={dato.html_url}>{dato.name}</a></td>
               <td>{dato.description}</td>
               <td>{dato.language} {this.getLanguageIcon(dato.language)}</td>
             </tr>

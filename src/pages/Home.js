@@ -6,6 +6,9 @@ import '../css/styles.css';
 
 import Proyectos from '../components/Proyectos';
 import Github from '../components/Github';
+import CryptoAPI from '../components/CryptoAPI';
+
+
 
 class Home extends Component{
   render(){
@@ -19,9 +22,17 @@ class Home extends Component{
       <p>
         Web construida en <Badge variant="primary" pill>ReactJS</Badge>
       </p>
+      <div align="left">
+
+        <h4>Some cryptocurrencies prices</h4>
+        <CryptoAPI name="bitcoin"/>
+        <CryptoAPI name="ethereum"/>
+        <p><b>Data retrieved using <a href="https://github.com/cbrn/ReactJS-Components">CryptoAPI</a> by me.</b></p>
+      </div>
     </Jumbotron>
     <Proyectos/>
     <Github/>
+
     </div>
   }
 }

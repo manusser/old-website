@@ -5,7 +5,6 @@ import {Navbar, Nav} from 'react-bootstrap';
 
 import Home from '../pages/Home';
 
-
 class Navbars extends Component {
 
   render(){

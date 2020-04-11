@@ -3,13 +3,15 @@
 }
 
 @media screen
-  and (device-width: 360px)
-  and (device-height: 640px)
-  and (-webkit-device-pixel-ratio: 2) {
-    Card {
-        margin: 0 auto; /* Added */
-        float: none; /* Added */
-        margin-bottom: 10px; /* Added */
-    }
+  and (device-width: 300px)
+  and (device-height: 720px) {
 
+}
+
+.footer {
+  margin-top:auto;
+  text-align: center;
+  width: auto;
+  height: auto;
+  background-color: #007b5e;
 }

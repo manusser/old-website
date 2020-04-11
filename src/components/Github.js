@@ -13,9 +13,7 @@ class Github extends Component{
     datos : []
   }
 
-  iconos = {
-    JavaScritp: <FaJs/>
-  }
+
 
   getLanguageIcon = (icon) => {
     if(icon === "JavaScript"){

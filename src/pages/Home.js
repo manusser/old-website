@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Jumbotron, Button, Badge} from 'react-bootstrap';
+import {Jumbotron, Badge} from 'react-bootstrap';
 
 import '../css/bootstrap.css';
 import '../css/styles.css';
@@ -17,7 +17,7 @@ class Home extends Component{
         Si quieres conocer un poco más sobre mi, pásate por aquí :D.
       </p>
       <p>
-        Web construida en <Badge variant="primary">ReactJS</Badge>
+        Web construida en <Badge variant="primary" pill>ReactJS</Badge>
       </p>
     </Jumbotron>
     <Proyectos/>

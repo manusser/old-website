@@ -6,8 +6,8 @@ import '../css/styles.css';
 
 class Proyectos extends Component{
   render(){
-    return <Container style={{marginTop: '5%', marginBottom: '5%'}}>
-      <h3 align="center">Proyectos <Badge variant="warning">Públicos</Badge></h3>
+    return <Container style={{marginTop: '5%'}}>
+      <h3 align="center">Proyectos <Badge variant="warning" pill>Públicos</Badge></h3>
       <Row>
       <Card style={{ width: '18rem' }} className="col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe d-block mx-auto mx-md-0">
         <Card.Body>

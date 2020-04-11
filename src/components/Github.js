@@ -36,7 +36,7 @@ class Github extends Component{
     return <Container style={{marginTop: '5%'}}>
       <h3 align="center">Proyectos <Badge variant="dark" pill>Github <FaGithub /></Badge></h3>
       <Row>
-      <Table striped bordered hover variant="dark">
+      <Table striped bordered hover variant="dark" responsive>
         <thead>
           <tr>
             <th>Repository <span role="img" aria-label="package">📦</span></th>

@@ -4,7 +4,7 @@ import {Navbar, Nav} from 'react-bootstrap';
 
 
 import Home from '../pages/Home';
-
+import CryptoAPI from '../components/CryptoAPI';
 class Navbars extends Component {
 
   render(){
@@ -25,6 +25,15 @@ class Navbars extends Component {
         <Nav className="mr-auto">
           <Nav.Link as={NavLink} to="/">Home</Nav.Link>
         </Nav>
+      </Navbar.Collapse>
+
+      <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end" >
+        <Navbar.Text style={{paddingRight: '20px'}}>
+            <CryptoAPI name="bitcoin"/>
+        </Navbar.Text>
+        <Navbar.Text style={{paddingRight: '20px'}}>
+            <CryptoAPI name="ethereum"/>
+        </Navbar.Text>
       </Navbar.Collapse>
     </Navbar>
     <Switch>

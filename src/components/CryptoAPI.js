@@ -17,7 +17,7 @@ class CryptoAPI extends Component {
     if(icon === "Bitcoin"){
       return <FaBitcoin style={{color:'orange'}}/>
     } else if(icon === "Ethereum"){
-      return <FaEthereum style={{color:'#3c3c3d'}}/>
+      return <FaEthereum style={{color:'blue'}}/>
     }
   }
 

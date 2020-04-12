@@ -13,7 +13,7 @@ class Home extends Component{
   render(){
     return <div>
     <Jumbotron>
-      <h1>Bienvenido</h1>
+      <h1>Welcome</h1>
       <p>
         Personal website where I'll be uploading my projects, ideas, tools, etc.
       </p>

@@ -19,12 +19,12 @@ class Proyectos extends Component{
                 className="d-inline-block align-top"
               />
           </Card.Title>
-          <Card.Subtitle className="mb-2 text-muted">Foro informático</Card.Subtitle>
+          <Card.Subtitle className="mb-2 text-muted">Forum</Card.Subtitle>
           <Card.Text>
-            Fundado a principios de 2018. Foro dedicado a la informática en general.
+            Spanish forum founded at the beginning of 2018.
           </Card.Text>
-          <Card.Link target="_blank" href="https://www.nodo313.net">Acceso al foro</Card.Link>
-          <Card.Link target="_blank" href="https://www.nodo313.net/index.php?members/cbrn.2/">Mi perfil</Card.Link>
+          <Card.Link target="_blank" href="https://www.nodo313.net">Access</Card.Link>
+          <Card.Link target="_blank" href="https://www.nodo313.net/index.php?members/cbrn.2/">My profile</Card.Link>
         </Card.Body>
       </Card>
 

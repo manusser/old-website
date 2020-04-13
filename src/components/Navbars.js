@@ -4,6 +4,7 @@ import {Navbar, Nav} from 'react-bootstrap';
 
 
 import Home from '../pages/Home';
+import Emojipedia from '../pages/Emojipedia';
 import CryptoAPI from '../components/CryptoAPI';
 class Navbars extends Component {
 
@@ -24,6 +25,7 @@ class Navbars extends Component {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link as={NavLink} to="/">Home</Nav.Link>
+          <Nav.Link as={NavLink} to="/emojis">Emojipedia</Nav.Link>
         </Nav>
       </Navbar.Collapse>
 
@@ -38,7 +40,7 @@ class Navbars extends Component {
     </Navbar>
     <Switch>
       <Route exact path="/" component={Home} />
-
+      <Route path="/emojis" component={Emojipedia} />
     </Switch>
     </BrowserRouter>
     </div>

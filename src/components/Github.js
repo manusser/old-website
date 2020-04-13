@@ -32,7 +32,7 @@ class Github extends Component{
 
   render(){
     return <Container style={{marginTop: '5%'}}>
-      <h3 align="center"><Badge variant="dark" pill>Github <FaGithub /></Badge> Proyects</h3>
+      <h3 align="center"><Badge variant="dark" pill>Github <FaGithub /></Badge> Projects</h3>
       <Row>
       <Table striped bordered hover variant="dark" responsive>
         <thead>

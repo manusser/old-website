@@ -100,7 +100,7 @@ class Emojipedia extends Component {
       <Container>
         <Jumbotron fluid>
           <Container align="center">
-            <h1>Emojipedia 🌍</h1>
+            <h1>Emojipedia </h1>
             <p>
               Emojipedia is a project who contains all posibles Emojis in the world.
             </p>

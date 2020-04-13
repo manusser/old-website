@@ -39,9 +39,8 @@ class Proyectos extends Component{
           </Card.Title>
           <Card.Subtitle className="mb-2 text-muted">Service</Card.Subtitle>
           <Card.Text>
-            Service to provide access to all the Emojis who exists
+            Service to provide access to all the Emojis in the world!
           </Card.Text>
-          <Card.Link target="_blank" href="/emojis">Access</Card.Link>
         </Card.Body>
       </Card>
 

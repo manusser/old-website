@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Container, Row, Card, Badge} from 'react-bootstrap';
-
+import { Link, Switch, Route } from 'react-router-dom';
+import Emojipedia from '../pages/Emojipedia';
 import '../css/bootstrap.css';
 import '../css/styles.css';
 
@@ -41,6 +42,12 @@ class Proyectos extends Component{
           <Card.Text>
             Service to provide access to all the Emojis in the world!
           </Card.Text>
+          <Link target="_blank" to="/emojis">Access</Link>
+          <Switch>
+            <Route path="/emojis">
+              <Emojipedia />
+            </Route>
+          </Switch>
         </Card.Body>
       </Card>
 

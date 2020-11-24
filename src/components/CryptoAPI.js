@@ -24,7 +24,7 @@ class CryptoAPI extends Component {
   componentDidMount() {
 
     const apiHost = "coingecko.p.rapidapi.com";
-    const apiKey = "f499b0c80emsh4da670db83bbe25p1c6b2bjsncb9ae6435440"
+    const apiKey = "YourAPIKey"
 
     fetch("https://coingecko.p.rapidapi.com/coins/"+this.props.name, {
       method: 'GET',

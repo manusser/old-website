@@ -24,7 +24,7 @@ class Github extends Component{
   }
 
   componentDidMount = async() => {
-    const res = await fetch('https://api.github.com/users/cbrn/repos?client_id=Iv1.2392e9ed4c61d610&client_secret=f7c07c39a6fc66c0a5507e6d2cbef00a657fc1bc');
+    const res = await fetch('https://api.github.com/users/cbrn/repos?client_id=&client_secret=');
     const data = await res.json();
 
     this.setState({datos: data})
